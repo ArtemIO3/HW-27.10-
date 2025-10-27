@@ -38,7 +38,7 @@ void Numbers<Point, Point>::InitRandom() {
 
 template<>
 void Numbers<Point, Point>::Output() {
-	a.Output(); b.Output(); cout << endl;
+	a.Output(); b.Output();
 }
 
 int main()
