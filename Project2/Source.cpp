@@ -58,6 +58,8 @@ void Numbers<Point, Point>::Output() {a.Output();b.Output();}
 int main()
 {
 	srand(time(0));
+	Point obj(1, 6);
+	obj.Output();
 	Numbers<int, double> obj1(10, 2.5);
 	obj1.Output();
 	Numbers<Point, Point> obj2(Point(1, 2), Point(3, 4));
